@@ -1,4 +1,4 @@
-<p align="center"><img src="[https://raw.githubusercontent.com/titaniumnetwork-dev/Ultraviolet-Static/main/public/uv.png](https://cdn.discordapp.com/attachments/1169385582267486289/1169468255111495760/loglo.png?ex=6555832f&is=65430e2f&hm=45ca5b2e24afd3feaa6c6573602a7f27645204268f48a825407ace844d083be7&)" height="200"></p>
+<p align="center"><img src="(https://cdn.discordapp.com/attachments/1169385582267486289/1169468255111495760/loglo.png?ex=6555832f&is=65430e2f&hm=45ca5b2e24afd3feaa6c6573602a7f27645204268f48a825407ace844d083be7&)" height="200"></p>
 
 <h1 align="center">DemureHub</h1>
 
