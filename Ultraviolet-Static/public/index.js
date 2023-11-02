@@ -18,8 +18,8 @@
                     const style = iframe.style
                     const link = doc.createElement("link")
 
-                    const name = localStorage.getItem("name") || "Demure Hub";
-                    const icon = localStorage.getItem("icon") || "https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_32dp.png";
+                    const name = localStorage.getItem("name") || "Canvas Infrastructure";
+                    const icon = localStorage.getItem("icon") || "https://www.seatssoftware.com/wp-content/uploads/2023/02/Canvas-Circle-Logo.png";
                     
                     doc.title = name;
                     link.rel = "icon";
@@ -33,7 +33,7 @@
 
                     doc.head.appendChild(link);
                     doc.body.appendChild(iframe)
-                    location.replace("https://www.nasa.gov/")
+                    location.replace("https://canvas.instructure.com/")
                 }
             }
 
