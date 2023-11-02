@@ -55,7 +55,7 @@
 	}
   }
 body {
-    background-image: url(assets/images/backround.png) /* ok so if i just kms*/
+    background-image: url(assets/images/backround.png); /* ok so if i just kms*/
     background-size: cover;
     display: flex;
     flex-direction: column;
