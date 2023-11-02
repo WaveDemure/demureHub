@@ -55,7 +55,8 @@
 	}
   }
 body {
-    background-image: url(assets/images/backround.png);
+    background-image: url(assets/images/backround.png)
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
