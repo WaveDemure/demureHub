@@ -1,15 +1,18 @@
-<p align="center"><img src="https://cdn.discordapp.com/attachments/1169385582267486289/1169468255111495760/loglo.png?ex=6555832f&is=65430e2f&hm=45ca5b2e24afd3feaa6c6573602a7f27645204268f48a825407ace844d083be7&" height="200"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/titaniumnetwork-dev/Ultraviolet-Static/main/public/uv.png" height="200"></p>
 
-<h1 align="center">DemureHub</h1>
+<h1 align="center">Ultraviolet-App</h1>
 
-Imagine a web proxy stylish and fast DemureHub is that it is fueled by the fast backend ultraviolet but it also has good minamilist looks.
+The deployable all-in-one bundle for [Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet), a highly sophisticated proxy used for evading internet censorship or accessing websites in a controlled sandbox using the power of service-workers and more!
 
 ## Deployment
 
-[![Run on Replit](https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg)]([https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Run-on-Replit](https://github.com/WaveDemure/demureHub))
+[![Run on Replit](https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg)](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Run-on-Replit)
+[![Deploy on Railway](https://binbashbanana.github.io/deploy-buttons/buttons/remade/railway.svg)](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Deploy-on-Railway)
+[![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Remix-on-Glitch)
+[![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Deploy-to-Koyeb)
 
-thanks to 6tu9id for coding the proxy
+If you are deploying to an alternative service or to a server, refer to [Deploy via terminal](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Deploy-via-terminal).
 
-This project is currently in beta.
+Additional information such as [customizing your frontend](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Customizing-your-frontend) can be found on the [wiki](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki).
 
-Support and updates can be found in our [Discord Server](https://discord.gg/kjJY8t4RcZ).
+Support and updates can be found in our [Discord Server](discord.gg/unblock).
