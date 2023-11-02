@@ -56,8 +56,9 @@
   }
 body {
     background-image: url(assets/images/backround.png); /* ok so if i just kms*/
-    width: 150vw;
-    height: 150vh;
+    width: 100vw;
+    height: 100vh;
+    background-size: 25% 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
