@@ -58,8 +58,8 @@ body {
     background-image: url(assets/images/backround.png);
     display: flex;
     flex-direction: column;
-  	justify-content: center;
-  	align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .fa-magnifying-glass {
@@ -79,7 +79,7 @@ form {
 }
 
 form :hover{
-	top:-15vh;
+    top:-15vh;
     padding: 1vw;
     width: 500px;
     height: 20px;
@@ -90,10 +90,10 @@ form :hover{
     border: none;
     outline: #131111;
     color: #fff;
-	transition: all 0.2s ease;
+    transition: all 0.2s ease;
     transform: translateX(0%);
-	filter: drop-shadow(0 0 20px #151414) drop-shadow(0 0 50px #151414);
-	transform: translateY(-5%);
+    filter: drop-shadow(0 0 20px #151414) drop-shadow(0 0 50px #151414);
+    transform: translateY(-5%);
 
 }
 
@@ -109,8 +109,8 @@ form input {
     border: none;
     outline: #131111;
     color: #fff;
-	transition: all 0.2s ease;
+    transition: all 0.2s ease;
     transform: translateX(0%);
-	filter: drop-shadow(0 0 20px #151414) drop-shadow(0 0 50px #151414);
+    filter: drop-shadow(0 0 20px #151414) drop-shadow(0 0 50px #151414);
 
 }
