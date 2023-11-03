@@ -6,24 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>DemureHUB</title>
     <link href="index.css" rel="stylesheet">
-    <script src="uv/uv.bundle.js"></script>
-    <script src="uv/uv.config.js"></script>
-    <script src="index.js"></script>
-    <script>
-        const gamesList = ["https://example.com"]
-        function games(game) {
-            window.navigator.serviceWorker.register('./sw.js', {
-                scope: __uv$config.prefix
-            }).then(() => {
-                let url = gamesList[game]
-                if (!isUrl(url)) url = 'https://www.google.com/search?q=' + url;
-                else if (!(url.startsWith('https://') || url.startsWith('http://'))) url = 'http://' + url;
-
-
-                window.location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
-            });
-        }
-    </script>
 </head>
 
 <body>
@@ -37,8 +19,16 @@
         <h2>  </h2>
     </div>
 
-    <form>
-        <input placeholder="Search what your heart desires">
+    <form id="uv-form" class="flex-center">
+        <input
+          id="uv-search-engine"
+          value="https://www.google.com/search?q=%s"
+          type="hidden"
+        />
+        <input id="uv-address" type="text" placeholder="Search the web freely" />
     </form>
+    <script src="uv/uv.bundle.js"></script>
+    <script src="uv/uv.config.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
