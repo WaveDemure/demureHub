@@ -18,11 +18,12 @@
             if (appList[current].on == true) {
                 const semiDiv = document.createElement("div")
                 semiDiv.id = appList[current].name
+                semiDiv.className = current
                 appDiv.appendChild(semiDiv)
 
                 const btn = document.createElement("a")
                 btn.onclick = function () {
-                    games(current)
+                    games(semiDiv.className)
                 }
                 semiDiv.appendChild(btn)
 
