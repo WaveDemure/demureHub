@@ -2,7 +2,7 @@ const appList = [
     {
         name: "example.com",
         link: "https://example.com",
-        on: false
+        on: true
     },
     {
         name: "Monkey Mart",
