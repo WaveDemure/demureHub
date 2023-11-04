@@ -12,6 +12,7 @@
     <script>
         var current = 0
         window.onload = function load() {
+            console.log(current)
             var appDiv = document.getElementById("apps")
 
             if (appList[current].on == true) {
@@ -22,8 +23,8 @@
 
                 const btn = document.createElement("a")
                 btn.onclick = function () {
-                    console.log(semiDiv.className)
                     games(semiDiv.className)
+                    console.log(semiDiv.className)
                 }
                 semiDiv.appendChild(btn)
 
@@ -38,8 +39,8 @@
                 btn.appendChild(img)
             }
 
-            if (current == appList.length) {
-                console.log("c")
+            if (current >= appList.length) {
+                console.log("Done")
             } else {
                 current = current + 1
                 load()
@@ -55,13 +56,13 @@
             window.navigator.serviceWorker.register('./sw.js', {
                 scope: __uv$config.prefix
             }).then(() => {
-                var input = appList[current].link
+                var input = appList[app].link
                 let url = input.value.trim();
                 if (!isUrl(url)) url = 'https://www.google.com/search?q=' + url;
                 else if (!(url.startsWith('https://') || url.startsWith('http://'))) url = 'http://' + url;
-
-                window.location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
                 console.log(url)
+                window.location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
+                
             });
         }
     </script>
