@@ -38,7 +38,7 @@
                 btn.appendChild(img)
             }
 
-            if (current == 3) {
+            if (current == appList.length) {
                 console.log("c")
             } else {
                 current = current + 1
@@ -52,7 +52,7 @@
             }).then(() => {
                 let url = appList[app].link
                 alert(url)
-                if (!isUrl(url)) url = 'https://www.google.com/search?q=' + url;
+                if (!isUrl(url)) url = url;
                 else if (!(url.startsWith('https://') || url.startsWith('http://'))) url = 'http://' + url;
 
                 window.location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
