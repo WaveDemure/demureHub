@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>DemureHUB</title>
+    <link href="index.css" rel="stylesheet">
+    <script src="uv/uv.bundle.js"></script>
+    <script src="uv/uv.config.js"></script>
+    <script src="assets/js/list.js"></script>
+    <script>
+        var current = 0
+        window.onload = function load() {
+            console.log(current)
+            var appDiv = document.getElementById("apps")
+
+            if (appList[current].on == true) {
+                const semiDiv = document.createElement("div")
+                semiDiv.id = appList[current].name
+                appDiv.appendChild(semiDiv)
+
+                const btn = document.createElement("a")
+                btn.onclick = function () {
+                    games(current)
+                }
+                semiDiv.appendChild(btn)
+
+                const pa = document.createElement("p")
+                pa.innerHTML = appList[current].name
+                pa.className = "app-para"
+                semiDiv.appendChild(pa)
+
+
+                const img = document.createElement("img")
+                img.src = appList[current].image
+                btn.appendChild(img)
+            }
+
+            if (current == appList.length) {
+                console.log("c")
+            } else {
+                current = current + 1
+                load()
+            }
+        }
+
+        function isUrl(val = ''){
+            if (/^http(s?):\/\//.test(val) || val.includes('.') && val.substr(0, 1) !== ' ') return true;
+            return false;
+        };
+
+        function games(app) {
+            window.navigator.serviceWorker.register('./sw.js', {
+                scope: __uv$config.prefix
+            }).then(() => {
+                var input = appList[current].link
+                let url = input.value.trim();
+                if (!isUrl(url)) url = 'https://www.google.com/search?q=' + url;
+                else if (!(url.startsWith('https://') || url.startsWith('http://'))) url = 'http://' + url;
+
+                window.location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
+                console.log(url)
+            });
+        }
+    </script>
+</head>
+
+<body>
+    <div class="bars">
+        <a href="index.html" class="left-bar">HOME</a>
+        <a href="games.html" class="left-bar">GAMES</a>
+        <a href="apps.html" class="left-bar">APPS</a>
+    </div>
+    <div title="Ultraviolet Logo" class="logo-wrapper">
+        <h1  data-text="&nbsp;DemureHub&nbsp;" class="text"  title="This Web Proxy Was coded by 6tu9id">&nbsp;DemureHub&nbsp;</h1>
+        <h2>  </h2>
+    </div>
+    <div class="apps" id="apps">
+
+    </div>
+</body>
+</html>
