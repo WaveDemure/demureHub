@@ -18,8 +18,8 @@ const appList = [
     },
     {
         name: "vscode",
-        link: "https://vscode.dev/",
-        image: "https://i.ibb.co/mHrC2Hc/image-removebg-preview.png",
+        link: "https//vscode.dev",
+        image: "https://vscode.dev/static/stable/favicon.ico",
         on: true
     }
 ];
