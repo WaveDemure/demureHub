@@ -3,9 +3,9 @@ const input = document.querySelector('input');
 
 const gamesjson = [
     {
-        "name": "vscode",
-        "link": "https://vscode.dev",
-        "image": "https://raw.githubusercontent.com/InterstellarNetwork/Interstellar/main/static/images/icons/apps/vscode.png",
+        "name": "Monkey Mart",
+        "link": "https://monkey-mart.io/iframe",
+        "image": "https://github.com/InterstellarNetwork/Interstellar/blob/main/static/images/icons/mm.png?raw=true",
         "on": true
     }
 ]
