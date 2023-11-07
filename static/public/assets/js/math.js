@@ -37,7 +37,6 @@ gamesjson.forEach(app => {
 })
 
 function games(games) {
-    alert(gamesjson[games].link)
     window.navigator.serviceWorker.register('./sw.js', {
         scope: __uv$config.prefix
     }).then(() => {
