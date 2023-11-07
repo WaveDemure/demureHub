@@ -114,3 +114,31 @@ form input {
 	filter: drop-shadow(0 0 20px #151414) drop-shadow(0 0 50px #151414);
 
 }
+
+
+
+.bars {
+    background-color: rgba(0, 0, 0, .3);
+    opacity: 0.5;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 2vh;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.bars a {
+	transition: 0.5s;
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    font-size: xx-large;
+}
+
+.bars a:hover {
+	opacity: 0.3;
+	font-size: 250%;
+	color: white;
+}
