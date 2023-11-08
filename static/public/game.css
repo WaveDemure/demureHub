@@ -149,14 +149,14 @@ form input {
 }
 
 .bars {
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, .2);
     opacity: 0.5;
     overflow: hidden;
     width: 100%;
     position: fixed;
     top: 0px;
     left: 0px;
-    padding: 2vh;
+    padding: 1.5vh;
     font-family: "Comfortaa", sans-serif;
 }
 
@@ -165,11 +165,23 @@ form input {
     text-decoration: none;
     color: white;
     margin: 15px;
-    font-size: xx-large;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.bars img{
+	width: 5vh;
+	height: 5vh;
+	position: relative;
 }
 
 .bars a:hover {
 	opacity: 0.3;
 	font-size: 250%;
 	color: white;
+}
+
+.left-bar {
+    float: left;
 }
