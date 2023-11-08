@@ -131,8 +131,11 @@ form input {
 	transition: 0.5s;
     text-decoration: none;
     color: white;
-    margin: 50px;
+    margin: 15px;
     font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 .bars img{
 	width: 5vh;
