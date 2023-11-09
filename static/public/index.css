@@ -128,7 +128,7 @@ form input {
 }
 
 .bars a {
-	transition: 0.5s;
+    transition: 0.5s;
     text-decoration: none;
     color: white;
     margin: 15px;
@@ -136,11 +136,6 @@ form input {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
-}
-.bars img{
-	width: 5vh;
-	height: 5vh;
-	position: relative;
 }
 
 .bars a:hover {
