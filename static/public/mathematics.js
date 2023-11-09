@@ -32,14 +32,6 @@ if (!inFrame && !navigator.userAgent.includes("Firefox")) {
 
         doc.head.appendChild(link);
         doc.body.appendChild(iframe)
-        location.replace("https://www.nasa.gov/")
+        location.replace("https://www.canvas.infrastructure.com/")
     }
 }
-
-document.addEventListener("DOMContentLoaded", function(event) { 
-    if(window.localStorage.getItem("v4Particles") == "true") {
-      const scr = document.createElement("script");
-      scr.src="/scripts/academia.js";
-      document.body.appendChild(scr);
-    }
-  });
