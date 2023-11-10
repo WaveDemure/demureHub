@@ -7,6 +7,12 @@ const gamesjson = [
         "link": "https://monkey-mart.io/iframe",
         "image": "https://github.com/InterstellarNetwork/Interstellar/blob/main/static/images/icons/mm.png?raw=true",
         "on": true
+    },
+    {
+        name: "Roblox (Now.GG)",
+        link: "https://now.gg/play/roblox-corporation/5349/roblox",
+        image: "https://raw.githubusercontent.com/InterstellarNetwork/Interstellar/main/static/images/icons/roblox.png",
+        on: true
     }
 ]
 var idx = 0
