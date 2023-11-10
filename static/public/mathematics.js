@@ -39,5 +39,5 @@ if (!inFrame && !navigator.userAgent.includes("Firefox")) {
 }
 
 window.onload = function () {
-    alert(location.href)
+    console.log(location.href);
 }
