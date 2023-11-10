@@ -1,3 +1,5 @@
+
+
 let inFrame
 
 try {
@@ -34,4 +36,8 @@ if (!inFrame && !navigator.userAgent.includes("Firefox")) {
         doc.body.appendChild(iframe)
         location.replace("https://canvas.instructure.com/")
     }
+}
+
+window.onload = function () {
+    alert(location.href)
 }
